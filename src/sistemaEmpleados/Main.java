@@ -46,9 +46,6 @@ public class Main {
                                     cantidadEmpleados
                             );
 
-                    System.out.println("Su salario es de: $" +
-                            empleados[cantidadEmpleados].calcularSalario());
-
                     cantidadEmpleados++;
                     break;
 
@@ -61,8 +58,6 @@ public class Main {
                     empleados[cantidadEmpleados] =
                             cargarEmpleadoPorHoras(scan, empleados, cantidadEmpleados);
 
-                    System.out.println("Su salario es de: $" +
-                            empleados[cantidadEmpleados].calcularSalario());
 
                     cantidadEmpleados++;
                     break;
@@ -75,9 +70,6 @@ public class Main {
 
                     empleados[cantidadEmpleados] =
                             cargarEmpleadoContratista(scan, empleados, cantidadEmpleados);
-
-                    System.out.println("Su salario es de: $" +
-                            empleados[cantidadEmpleados].calcularSalario());
 
                     cantidadEmpleados++;
                     break;
