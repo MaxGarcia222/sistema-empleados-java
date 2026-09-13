@@ -30,7 +30,7 @@ public abstract class Empleado {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "Empleado{" +
                 "nombre='" + nombre + '\'' +
                 ", dni='" + dni + '\'' +
                 '}';

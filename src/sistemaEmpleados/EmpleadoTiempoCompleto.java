@@ -43,16 +43,16 @@ public class EmpleadoTiempoCompleto extends  Empleado{
 
     @Override
     public double calcularSalario() {
-        if (this.anioAntiguedad < 2){
+        if (anioAntiguedad < 2) {
             return sueldoBasico;
-        } else if (this.anioAntiguedad <= 5 && this.anioAntiguedad >= 2){
-            return sueldoBasico + (sueldoBasico*0.05);
-        } else if (this.anioAntiguedad >= 6 && this.anioAntiguedad <= 10){
-            return sueldoBasico + (sueldoBasico*0.1);
-        } else if (this.anioAntiguedad >= 11 && this.anioAntiguedad <= 15){
-            return sueldoBasico + (sueldoBasico*0.15);
+        } else if (anioAntiguedad <= 5) {
+            return sueldoBasico * 1.05;
+        } else if (anioAntiguedad <= 10) {
+            return sueldoBasico * 1.10;
+        } else if (anioAntiguedad <= 15) {
+            return sueldoBasico * 1.15;
         } else {
-            return sueldoBasico + (sueldoBasico*0.2);
+            return sueldoBasico * 1.20;
         }
     }
 }

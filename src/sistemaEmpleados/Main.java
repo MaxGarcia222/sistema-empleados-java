@@ -1,7 +1,5 @@
-import sistemaEmpleados.Empleado;
-import sistemaEmpleados.EmpleadoContratista;
-import sistemaEmpleados.EmpleadoPorHoras;
-import sistemaEmpleados.EmpleadoTiempoCompleto;
+package sistemaEmpleados;
+
 import java.util.Scanner;
 
 public class Main {

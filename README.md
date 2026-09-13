@@ -65,7 +65,7 @@ Además, cada contratista está asociado a un proyecto.
 sistema-empleados-java/
 ├── src/
 │   └── sistemaempleados/
-│       ├── Main.java
+│       ├── sistemaEmpleados.Main.java
 │       ├── Empleado.java
 │       ├── EmpleadoTiempoCompleto.java
 │       ├── EmpleadoPorHoras.java
@@ -134,7 +134,7 @@ classDiagram
 
 1. Clonar el repositorio.
 2. Abrir el proyecto en IntelliJ IDEA o cualquier IDE compatible con Java.
-3. Ejecutar `Main.java`.
+3. Ejecutar `sistemaEmpleados.Main.java`.
 4. Utilizar el menú de consola para cargar y consultar empleados.
 
 También puede compilarse y ejecutarse desde una terminal si se tiene instalado el JDK correspondiente.
